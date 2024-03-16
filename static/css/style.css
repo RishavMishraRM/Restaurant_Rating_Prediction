@@ -26,7 +26,7 @@ body, html {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 600px;
+    max-width: 1500px;
     text-align: center;
     color: #fff;
 }
@@ -38,8 +38,10 @@ body, html {
 
 .navigation {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    background: rgba(34, 1, 1, 0.221);
+    padding: 20px;
+    left:50px;
+    top: 30px;
     display: flex;
 }
 
@@ -49,6 +51,8 @@ body, html {
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
+    left:80px;
+    top:2px;
 
 }
 
@@ -105,3 +109,44 @@ button {
 
 
 
+@mixin background-up-down($color: #000) {
+    $rgb: 'rgb%28#{round(red($color))}, #{round(green($color))}, #{round(blue($color))}%29';
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='8' height='13' viewBox='0 0 8 13'><polygon points='0,8 4,13 8,8' style='fill: #{$rgb}'/><polygon points='4,0 0,5 8,5' style='fill: #{$rgb}'/></svg>");
+  }
+  
+  select {
+    padding: 0.5em 0.5em;
+  
+    &.different {
+      @include background-up-down(purple);
+      appearance: none;
+      background-origin: content-box;
+      background-position: right -1em center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      box-sizing: border-box;
+      padding-right: 1.5em;
+    }
+  }
+
+  select { 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: white; 
+    shape-margin: 10%;
+  }
+
+  .dropdown:after {
+    background: none repeat scroll 0 0 #2CA7E5;
+    color: #FFFFFF;
+    content: "\f078";
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }

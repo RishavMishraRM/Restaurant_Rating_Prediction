@@ -18,8 +18,8 @@ https://drive.google.com/file/d/1h9lewh8SyR4IYSjRmmt4kvPqJ4GCZ5BD/view?usp=drive
 
 Implementing MLOps ensures a seamless and automated machine learning lifecycle. Continuous Integration and Continuous Deployment (CI/CD) pipelines automate testing, model training, and deployment processes.
 
-- **DAGs Hub:**
-  DAGs Hub is used to orchestrate and automate workflows. View and manage your Directed Acyclic Graphs (DAGs) with DAGs Hub.
+**DAGs Hub:**
+DAGs Hub is used to orchestrate and automate workflows. View and manage your Directed Acyclic Graphs (DAGs) with DAGs Hub.
 
 - **CI/CD Pipeline:**
   The CI/CD pipeline is set up to automatically trigger testing, model training, and deployment steps on each code push.

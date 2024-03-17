@@ -6,9 +6,9 @@ The Restaurant Rating Prediction Project is a machine learning-based application
 
 ## Key Features
 
-- **Data Exploration:** Gain insights into the dataset through exploratory data analysis (EDA) to understand the distribution of features, correlations, and potential trends.
-- **Predictive Modeling:** Utilize machine learning algorithms to build a predictive model capable of estimating restaurant ratings based on input features.
-- **Interface:** Interact with the model through an intuitive user interface that allows users to input restaurant features and receive a predicted rating.
+**Data Exploration:** Gain insights into the dataset through exploratory data analysis (EDA) to understand the distribution of features, correlations, and potential trends.
+**Predictive Modeling:** Utilize machine learning algorithms to build a predictive model capable of estimating restaurant ratings based on input features.
+**Interface:** Interact with the model through an intuitive user interface that allows users to input restaurant features and receive a predicted rating.
 
 ## Demo Video
 
@@ -21,8 +21,8 @@ Implementing MLOps ensures a seamless and automated machine learning lifecycle. 
 **DAGs Hub:**
 DAGs Hub is used to orchestrate and automate workflows. View and manage your Directed Acyclic Graphs (DAGs) with DAGs Hub.
 
-- **CI/CD Pipeline:**
-  The CI/CD pipeline is set up to automatically trigger testing, model training, and deployment steps on each code push.
+**CI/CD Pipeline:**
+The CI/CD pipeline is set up to automatically trigger testing, model training, and deployment steps on each code push.
 
 ## AWS Deployment
 

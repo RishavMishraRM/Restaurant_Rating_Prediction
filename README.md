@@ -24,8 +24,8 @@ A smooth and automated machine learning lifecycle is ensured by using MLOps. Pip
 
 Here I have used DAGs Hub to orchestrate and automate workflows. View and manage your Directed Acyclic Graphs (DAGs) with DAGs Hub.
 
-**CI/CD Pipeline:**
-The CI/CD pipeline is set up to automatically trigger testing, model training, and deployment steps on each code push.
+- **CI/CD Pipeline:**
+  The CI/CD pipeline is set up to automatically trigger testing, model training, and deployment steps on each code push.
 
 ## AWS Deployment
 

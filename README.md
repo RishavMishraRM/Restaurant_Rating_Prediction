@@ -32,6 +32,8 @@ The CI/CD pipeline is set up to automatically trigger testing, model training, a
 
 Deploying the Restaurant Rating Prediction Project on AWS ensures scalability and accessibility. The application is hosted on an AWS instance for seamless access.
 
+- **IAM:**
+
 ## License
 
 This project is licensed under the MIT License.

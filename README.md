@@ -36,6 +36,8 @@ Deploying the Restaurant Rating Prediction Project on AWS ensures scalability an
 
 Identity access management will be used in AWS to upload my code in cloud to deploy the application
 
+- **ElasticNet:**
+
 ## License
 
 This project is licensed under the MIT License.

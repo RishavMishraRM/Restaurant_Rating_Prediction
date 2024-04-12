@@ -16,6 +16,8 @@ The Restaurant Rating Prediction Project is a machine learning based application
 
 https://drive.google.com/file/d/1h9lewh8SyR4IYSjRmmt4kvPqJ4GCZ5BD/view?usp=drive_link
 
+## Architecture
+
 ## MLOps and CI/CD
 
 A smooth and automated machine learning lifecycle is ensured by using MLOps. Pipelines for continuous integration and deployment (CI/CD) automate model training, deployment, and testing.

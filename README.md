@@ -38,7 +38,7 @@ Identity access management will be useing our Github credential in AWS to upload
 
 - **ElasticNet:**
 
-Use to deploy the code.
+Use to deploy the code from Git repo.
 
 ## License
 

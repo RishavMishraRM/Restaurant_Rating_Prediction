@@ -18,7 +18,7 @@ https://drive.google.com/file/d/1h9lewh8SyR4IYSjRmmt4kvPqJ4GCZ5BD/view?usp=drive
 
 ## Architecture
 
-- **Python:**
+- **Python:** Used Python Programing Language in this Program
 
 - **Flask:**
 

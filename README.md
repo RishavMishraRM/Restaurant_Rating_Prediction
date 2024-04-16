@@ -14,6 +14,8 @@ The Restaurant Rating Prediction Project is a machine learning based application
 
 ## Demo Video
 
+https://drive.google.com/file/d/1hZI-JpvdCkibn0Pe0dxEydDY2S1Ye7MV/view?usp=sharing
+
 ## Architecture
 
 - **Python:**
